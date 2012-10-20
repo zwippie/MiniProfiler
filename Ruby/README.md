@@ -121,7 +121,7 @@ end
 * position - Can either be 'right' or 'left'. Default is 'left'.
 * skip_schema_queries - Whether or not you want to log the queries about the schema of your tables. Default is 'false', 'true' in rails development.
 * auto_inject (default true) - when false the miniprofiler script is not injected in the page
-* backtrace_filter - a regex you can use to filter out unwanted lines from the backtraces
+* backtrace_remove - a regex you can use to filter out unwanted lines from the backtraces
 
 ## Special query strings 
 
